@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Elysium</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kalnia+Glaze:wght@100..700&family=Nabla&family=Yuji+Mai&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="background-music" loop>
+        <source src="bgm.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Navbar -->
+    <nav class="deep-purple darken-1">
+        <div class="nav-wrapper" style="padding-left: 0;">
+            <a href="#" class="brand-logo hide-on-med-and-down" style="display: flex; align-items: center; margin-left: 10px;">
+                <img src="img/logoo.webp" alt="Zodiac Logo" class="circle responsive-img" style="height: 50px; width: 50px; margin-right: 10px;">
+                <span style="font-family: 'Nabla', sans-serif;">Stellar Elysium</span>
+            </a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#zodiac">Zodiac Sign</a></li>
+                <li><a href="profile.html">Profiles</a></li>
+                <li><a href="astfore.html">Astrological Forecast</a></li>
+                <li><a href="comp.html">Compatibility</a></li>
+                <li><a href="culture.html">Cosmic Culture</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <ul class="sidenav deep-purple accent-1" id="mobile-menu">
+        <li><a href="#zodiac">Zodiac Sign</a></li>
+        <li><a href="profile.html">Profiles</a></li>
+        <li><a href="astfore.html">Astrological Forecast</a></li>
+        <li><a href="comp.html">Compatibility</a></li>
+        <li><a href="culture.html">Cosmic Culture</a></li>
+    </ul>
+
+    <!-- Header Section with Background Image -->
+    <header class="purple darken-4 white-text valign-wrapper" style="background: url('img/Untitled\ design.gif') no-repeat center center; background-size: cover; height: 100vh; position: relative;">
+        <div class="container" style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
+            <h1 style="font-family: 'Nabla', sans-serif; font-size: 90px;">Welcome to Stellar Elysium!</h1>
+        </div>
+        <div class="container" style="position: absolute; bottom: 0px; left: 50%; transform: translateX(-50%); text-align: center;">
+            <p style="font-family: 'Yuji Mai', serif; font-size:35px; font-weight: 900; background: linear-gradient(to right,#f9a825,#9fa8da ,#d1c4e9 ); -webkit-background-clip: text; color: transparent; background-clip: text;">
+                Explore the stars and discover your destiny!
+            </p>
+        </div>
+    </header>
+
+    <!-- Zodiac Section -->
+    <div class="section deep-purple accent-1" id="zodiac">
+        <div class="container">
+            <h2 class="center-align" style="font-family: 'Nabla', sans-serif;">What Are Zodiac Signs?</h2>
+            <br>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right, #bf360c, #311b92, #6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">Zodiac signs are a system of astrology that divides the sky into 12 segments, each associated with a specific constellation.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">They influence personality traits, behaviors, and even destiny based on the position of the sun, moon, and planets at the time of a person's birth.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">The zodiac has roots in Babylonian, Egyptian, and Greek traditions.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">Each sign corresponds to a specific time of the year and has unique traits and ruling elements.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">The zodiac is a 12-part circle (360° total), where each sign occupies 30°.</p>
+            <br>
+            <h2 class="center-align" style="font-family: 'Nabla', sans-serif;">Why Are Zodiac Signs Significant in Astrology?</h2>
+            <br>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">Astrologers believe that the zodiac signs influence:</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">༺☆༻ Personality Traits: Each sign has unique qualities, strengths, and weaknesses.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">༺☆༻ Behavior and Preferences: Certain patterns of behavior are attributed to individuals based on their sign.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; background: linear-gradient(to right,#bf360c ,#311b92,#6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">༺☆༻ Relationships: Signs are used to determine compatibility in friendships, love, and work dynamics.</p>
+        </div>
+    </div>
+
+    <!-- Zodiac Groupings Section -->
+    <div class="section black">
+        <section class="container">
+            <h2 class="center-align" style="font-family: 'Nabla', sans-serif;">Zodiac Groupings</h2>
+            <br>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 900; color: white;">There are four elements in Zodiac Signs:</p>
+            <br>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 300; color: #ff3d00; text-align: center;">Fire: (Aries, Leo, Sagittarius): Passionate, energetic, dynamic.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 300; color: #76ff03; text-align: center;">Earth: (Taurus, Virgo, Capricorn): Practical, grounded, reliable.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 300; color: #fff176; text-align: center;">Air (Gemini, Libra, Aquarius): Intellectual, communicative, social.</p>
+            <p style="font-family: 'Yuji Mai', serif; font-size: 25px; font-weight: 300; color: #4fc3f7; text-align: center;">Water (Cancer, Scorpio, Pisces): Emotional, intuitive, deep.</p>
+            <br>
+
+            <!-- Fire Signs -->
+            <h2 class="center-align" style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: #ff3d00;">FIRE SIGNS</h2>
+            <div class="row center-align">
+                <!-- Aries Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/aries.jpg" alt="Aries">
+                        </div>
+                        <div class="card-content" style="background-color: #b71c1c;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">ARIES</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leo Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/leo.jpg" alt="Leo">
+                        </div>
+                        <div class="card-content" style="background-color: #b71c1c;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">LEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sagittarius Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/sag.jpg" alt="Sagittarius">
+                        </div>
+                        <div class="card-content" style="background-color: #b71c1c;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">SAGITTARIUS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Earth Signs -->
+            <h2 class="center-align" style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: #4caf50;">EARTH SIGNS</h2>
+            <div class="row center-align">
+                <!-- Taurus Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/tau.jpg" alt="Taurus">
+                        </div>
+                        <div class="card-content" style="background-color: #1b5e20;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">TAURUS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virgo Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/vir.jpg" alt="Virgo">
+                        </div>
+                        <div class="card-content" style="background-color: #1b5e20;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">VIRGO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Capricorn Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/cap.jpg" alt="Capricorn">
+                        </div>
+                        <div class="card-content" style="background-color: #1b5e20;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">CAPRICORN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Air Signs -->
+            <h2 class="center-align" style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: #fff176;">AIR SIGNS</h2>
+            <div class="row center-align">
+                <!-- Gemini Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/gem.jpg" alt="Gemini">
+                        </div>
+                        <div class="card-content" style="background-color: #ffb74d;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">GEMINI</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libra Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/lib.jpg" alt="Libra">
+                        </div>
+                        <div class="card-content" style="background-color: #ffb74d;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">LIBRA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aquarius Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/aqua.jpg" alt="Aquarius">
+                        </div>
+                        <div class="card-content" style="background-color: #ffb74d;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">AQUARIUS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Water Signs -->
+            <h2 class="center-align" style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: #0288d1;">WATER SIGNS</h2>
+            <div class="row center-align">
+                <!-- Cancer Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/can.jpg" alt="Cancer">
+                        </div>
+                        <div class="card-content" style="background-color: #81d4fa;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">CANCER</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scorpio Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/sco.jpg" alt="Scorpio">
+                        </div>
+                        <div class="card-content" style="background-color: #81d4fa;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">SCORPIO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pisces Card -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pis.jpg" alt="Pisces">
+                        </div>
+                        <div class="card-content" style="background-color: #81d4fa;">
+                            <p style="font-family: 'Cinzel', serif; font-size: 50px; font-weight: 900; color: black; text-align: center;">PISCES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Parallax Section -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/hat.gif" alt="Water Element Parallax">
+        </div>
+    </div>
+
+    <div class="section black" id="zodiac">
+      <div class="container">
+          <h2 class="center-align" style="font-family: 'Nabla', sans-serif; text-align: left; font-size: 40px;">CONTACT, VISIT, AND SUPPORT US.</h2>
+          <br>
+          <div class="row" style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+            <i class="medium material-icons" style="background: linear-gradient(to right, #bf360c, #311b92, #6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">email</i>
+            <span style="font-family: 'Cinzel', serif; font-size: 20px; font-weight: 700; margin-left: 10px; color: white;">stellarelysium@gmail.com</span>
+        </div>
+        <div class="row" style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+          <i class="medium material-icons" style="background: linear-gradient(to right, #bf360c, #311b92, #6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">facebook</i>
+          <span style="font-family: 'Cinzel', serif; font-size: 20px; font-weight: 700; margin-left: 10px; color: white;">Stellar Elysium</span>
+      </div>
+      <div class="row" style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+        <i class="medium material-icons" style="background: linear-gradient(to right, #bf360c, #311b92, #6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">phone</i>
+        <span style="font-family: 'Cinzel', serif; font-size: 20px; font-weight: 700; margin-left: 10px; color: white;">103-781-900</span>
+    </div>
+    <div class="row" style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+      <i class="medium material-icons" style="background: linear-gradient(to right, #bf360c, #311b92, #6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">message</i>
+      <span style="font-family: 'Cinzel', serif; font-size: 20px; font-weight: 700; margin-left: 10px; color: white;">09297112345</span>
+  </div>
+  <div class="row" style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+    <i class="medium material-icons" style="background: linear-gradient(to right, #bf360c, #311b92, #6200ea); -webkit-background-clip: text; color: transparent; background-clip: text;">location_city</i>
+    <span style="font-family: 'Cinzel', serif; font-size: 20px; font-weight: 700; margin-left: 10px; color: white;">Antipolo City of Rizal</span>
+</div>
+      </div>
+  </div>
+ <!-- Footer -->
+<footer class="deep-purple darken-1 white-text center-align" style="padding: 20px;">
+  <p style="margin: 0; display: flex; justify-content: center; align-items: center; gap: 5px;">
+    <i class="material-icons" style="vertical-align: middle;">copyright</i>
+    All rights reserved 2024
+  </p>
+</footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidenav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sidenav);
+            const parallax = document.querySelectorAll('.parallax');
+            M.Parallax.init(parallax);
+            const audio = document.getElementById('background-music');
+    const lastTime = localStorage.getItem('music-time') || 0;
+
+    audio.currentTime = lastTime; // Resume from last time
+    audio.play();
+
+    // Save the current time before the user navigates away
+    window.addEventListener('beforeunload', () => {
+        localStorage.setItem('music-time', audio.currentTime);
+    });
+        });
+    </script>
+</body>
+</html>
